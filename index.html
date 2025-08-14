@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Portfolio - Home</title>
+   <meta charset="UTF-8">
+   <style>
+    body, html {
+  		height: 100%;
+  		margin: 0;
+  		font-family: arial, verdana, calibri;
+  		background-color: #66352e;
+	
+	}
+
+	.hero-image {
+  		background-image: linear-gradient(rgba(178, 74, 32, 0.8), rgba(178, 74, 32, 0.8)), url("images/hero.jpg");
+  		height: 40%;
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		position: relative;
+	}
+
+	.hero-text {
+		text-align: center;
+  		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		color: white;
+	}
+
+	.hero-text button {
+  		border: none;
+  		outline: 0;
+  		display: inline-block;
+  		padding: 10px 25px;
+  		color: black;
+  		background-color: lightsalmon;
+  		text-align: center;
+  		cursor: pointer;
+	}
+
+	.hero-text button:hover {
+  		background-color: #8C2B04;
+  		color: white;
+	}
+
+	.row {
+  		display: flex;
+  		margin-left: 50px;
+  
+  
+	}
+
+	.column {
+ 		flex: 20%;
+  		padding: 5px;
+	}
+	
+	.button {
+  		border: none;
+ 		 outline: 0;
+  		display: inline-block;
+  		padding: 8px;
+  		color: white;
+  		background-color: #c8665b;
+  		text-align: center;
+  		cursor: pointer;
+  		width: 75%;
+	}
+
+	.button:hover {
+  		background-color: #fa8072;
+  		color: black;
+	}
+
+	img{
+		border: 5px solid #c8665b;
+		border-radius: 5px;
+	}
+
+	a {
+  		float: center;
+  		color: palegoldenrod;
+  		text-align: center;
+  		padding: 5px 5px;
+  		text-decoration: none;
+  		font-size: 14px;
+	}
+    </style>
+</head> 
+ <body> 
+  <div class="hero-image"> 
+   <div class="hero-text"> 
+    <h1 style="font-size:50px">I am Bryan Ross Vocales</h1> 
+    <p style="color: #FFBCA1;"><strong>And I am a College Student</strong></p> 
+    <p style="color: palegoldenrod;"><strong>I Study to Become a Successful Web Developer</strong></p> <button>Hire me</button>
+    <br>
+    <br> 
+   </div> 
+  </div> 
+  <br>
+  <br> 
+  <div style="color: palegoldenrod; margin: 20px 50px;"> 
+   <p><br><br></p> 
+  </div> 
+  <div class="row"> 
+   <div class="column"> 
+    <img src="images\323621683_705360121123229_620173063124914007_n.jpg" alt="computer" style="width:75%"> 
+    <p><button class="button"><a href="personal.html">Personal Information</a></button></p> 
+   </div> 
+   <div class="column"> 
+    <img src="images\Code-complete-1024x576.jpg" alt="books" style="width:75%"> 
+    <p><button class="button"><a href="education.html">Educational Background</a></button></p> 
+   </div> 
+   <div class="column"> 
+    <img src="images\Certificate.jpeg" alt="certificate" style="width:75%"> 
+    <p><button class="button"><a href="skills.html">Skills and Training</a></button></p> 
+   </div> 
+   <div class="column"> 
+    <img src="images\images.jpg" alt="computer" style="width:75%"> 
+    <p><button class="button"><a href="photo_gallery.html">Photo Gallery</a></button></p> 
+   </div> 
+  </div> 
+ </body>
+</html>

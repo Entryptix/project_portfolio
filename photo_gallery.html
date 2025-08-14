@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html> 
+ <head> 
+  <title>Photo Gallery</title> 
+  <meta charset="UTF-8"> 
+  <style>
+	body{
+		background-color: firebrick;
+		color: palegoldenrod;
+		font-size: 16pt;
+		font-family: arial, verdana, calibri;
+
+	}
+	header{
+		width: 1200px;
+		height: 100px;
+		border: 5px solid salmon;
+		text-align: center;
+		background-color: #ee6666;
+		margin: 0 auto;
+		border-radius: 15px;
+	}
+	fieldset{
+		margin-top: 20px;
+		margin-left: 60px;
+		margin-right: 60px;
+		border: 4px solid firebrick;
+		border-radius: 15px;
+
+	}
+	legend{
+		margin: 15px;
+	}
+	legend >h2{
+		margin-left: 20px;
+		margin-right: 20px
+		}
+
+	main{
+		background-color: #ee6666;
+		width: 1200px;
+		height: auto;
+		margin: 0 auto;
+		border: 5px solid salmon;
+		border-radius: 15px;
+		}
+	nav{ 
+		
+		width: 1200px;
+		margin: 0 auto;
+		
+	}
+
+	.topnav {
+  		overflow: hidden;
+  		background-color: #ee6666;
+		border-radius: 10px;
+		border: 5px solid salmon;
+	}
+
+	.topnav a {
+  		float: left;
+  		color: palegoldenrod;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		font-size: 17px;
+	}
+
+	.topnav a:hover {
+  		background-color: #fdcac5;
+  		color: black;
+	}
+
+	.topnav a.active {
+  		background-color: firebrick;
+  		color: white;
+		}
+
+.row2 {
+  margin: 8px -16px;
+}
+
+.row2,
+.row2 > .column2 {
+  padding: 15px;
+}
+
+.column2 {
+  float: left;
+  width: 30%;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.photo{
+	margin-left: 15px;;
+}
+     </style>
+</head> 
+ <body> 
+  <div id="wrapper"> 
+   <header> 
+    <h1>Personal Portfolio</h1> 
+   </header>
+   <br> 
+   <nav> 
+    <div class="topnav"> <a href="index.html">Home</a> <a href="personal.html">Personal Info</a> <a href="education.html">Education</a> <a href="skills.html">Skills and Training</a> <a class="active" href="photo_gallery.html">Photo Gallery</a> 
+    </div> 
+   </nav>
+   <br> 
+   <main> 
+    <fieldset> <legend> <h2>Photo Gallery</h2> </legend>  
+     <div class="photo"> 
+      <div class="row2"> 
+       <div class="column2"> 
+        <div class="content"> 
+         <img src="images\312804964_824040182235152_4427483917260392214_n.jpg" alt="picture" style="width:100%"> 
+         <h3>In the Classroom</h3> 
+        </div> 
+       </div> 
+       <div class="column2"> 
+        <div class="content"> 
+         <img src="images\325066716_3515680985382395_4863711672951696219_n.jpg" alt="computer" style="width:100%"> 
+         <h3>In the Classroom</h3> 
+        </div> 
+       </div> 
+       <div class="column2"> 
+        <div class="content"> 
+         <img src="images\320536133_527955442643312_7485959733688947788_n.jpg" alt="huddle time" style="width:100%"> 
+         <h3>Restroom Break</h3> 
+        </div> 
+       </div> 
+       <br style="clear:both;"> 
+       <div class="photo"> 
+        <div class="row2"> 
+         <div class="column2"> 
+          <div class="content"> 
+           <img src="images\310650591_677201894049413_8208037892254244874_n.jpg" alt="huddle time" style="width:100%"> 
+           <h3>Huddle time</h3> 
+          </div> 
+         </div> 
+         <div class="column2"> 
+          <div class="content"> 
+           <img src="images\315522685_915867722714481_762882520583997938_n.jpg" alt="Work2" style="width:100%"> 
+           <h3>School Works</h3> 
+          </div> 
+         </div> 
+         <div class="column2"> 
+          <div class="content"> 
+           <img src="images\315933809_618522820050768_649332871739481075_n.jpg" alt="Nature" style="width:100%"> 
+           <h3>In the Gym</h3> 
+          </div> 
+         </div> 
+         <div class="photo"> 
+          <div class="row2"> 
+           <div class="column2"> 
+            <div class="content"> 
+             <img src="images\314615535_3346761195535404_5567589292903031244_n.jpg" alt="Nature" style="width:100%"> 
+             <h3>Hangtime w/ Classmates</h3> 
+            </div> 
+           </div> 
+           <div class="column2"> 
+            <div class="content"> 
+             <img src="images\305067519_453200593371936_4140589203443204249_n.jpg" alt="Mountains" style="width:100%"> 
+             <h3>In School</h3> 
+            </div> 
+           </div> 
+           <div class="column2"> 
+            <div class="content"> 
+             <img src="images\311067330_519449176683659_184098565454623247_n.jpg" alt="Nature" style="width:100%"> 
+             <h3>Orientation</h3> 
+            </div> 
+           </div> 
+          </div> 
+          <br>
+          <br> 
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </fieldset> 
+    <br>
+    <br> 
+   </main> 
+   <br>
+   <br style="clear:both;"> 
+  </div>  
+ </body>
+</html>
